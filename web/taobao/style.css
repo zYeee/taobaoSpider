@@ -1,0 +1,53 @@
+body{padding:0; margin:0;}
+.rate {
+	width: 95px;
+}
+.rate2 {
+	width: 200px;
+}
+.clear{clear:both;}
+#items{
+	width:220px;
+	height:425px;
+	margin-top:5px;
+	margin-left:10px;
+	padding:3px;
+	float:left;
+	border:2px solid gray;
+}
+#items:hover{
+	border:2px solid red;
+}
+#pic{
+	overflow:hidden;
+	width:100%;
+	height:220px;
+}
+#pager{
+	display:none;
+	text-align:center;
+}
+#result{
+	margin:0 auto;
+	width:95%;
+}
+#spanFontL{
+	display:block;
+	float:left;
+	font-size:13px;
+}
+#spanFontR{
+	display:block;
+	float:right;
+	font-size:13px;
+}
+#multi-props{
+	display:none;
+	overflow:hidden;
+	border:1px solid gray;
+}
+.enum-input{
+	margin-left:3px;
+	width:80px;
+	height:30px;
+}
